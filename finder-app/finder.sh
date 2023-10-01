@@ -4,7 +4,6 @@
 if [ $# -lt 2 ]
 then
     echo "Requires 2 arguments, the files directorry and searchstring: Found $#"
-    echo "Usage: $0 <filesdir> <searchstr>"
     exit 1
 fi
 
@@ -14,7 +13,6 @@ searchstr="$2"
 if [ ! -d "$filesdir" ]
 then
     echo "Argument 1 should be a valid directory: ${filesdir}"
-    echo "Usage: $0 <filesdir> <searchstr>"
     exit 1
 fi
 

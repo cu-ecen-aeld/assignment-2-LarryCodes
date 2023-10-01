@@ -4,7 +4,6 @@
 if [ $# -lt 2 ]
 then
     echo "Requires 2 arguments, the file path and writestring: Found $#"
-    echo "Usage: $0 <filepath> <writestring>"
     exit 1
 fi
 
