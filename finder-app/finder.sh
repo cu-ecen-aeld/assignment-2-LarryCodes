@@ -1,6 +1,7 @@
 #!/bin/sh
 # Implementation file for assignment 1
 
+
 if [ $# -lt 2 ]
 then
     echo "Requires 2 arguments, the files directorry and searchstring: Found $#"

@@ -1,6 +1,7 @@
 #!/bin/sh
 # Implementation of assignment 1 writer
 
+
 if [ $# -lt 2 ]
 then
     echo "Requires 2 arguments, the file path and writestring: Found $#"
