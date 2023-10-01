@@ -8,8 +8,8 @@ then
     exit 1
 fi
 
-filesdir=$1
-searchstr=$2
+filesdir="$1"
+searchstr="$2"
 
 if [ ! -d "$filesdir" ]
 then

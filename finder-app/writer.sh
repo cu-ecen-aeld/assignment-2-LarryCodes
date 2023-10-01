@@ -8,12 +8,12 @@ then
     exit 1
 fi
 
-writefile=$1
-writestr=$2
+writefile="$1"
+writestr="$2"
 
 # First check if directory exists
 file_path=$(dirname "$writefile")
-if [ ! -d $file_path ]
+if [ ! -d "$file_path" ]
 then
     mkdir -p "$file_path"
     # Exit if making directory is not successful
